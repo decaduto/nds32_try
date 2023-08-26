@@ -1,0 +1,739 @@
+make -C shlr sdbs
+make[1]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make sdb/src/libsdb.a RANLIB="ranlib"
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make[2]: «sdb/src/libsdb.a» è aggiornato.
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make[1]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make -C shlr/zip
+make[1]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/zip»
+make[1]: Nessuna operazione da eseguire per «all».
+make[1]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/zip»
+make -C libr/util
+make[1]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+cmp ../../shlr/spp//config.def.h ../../shlr/spp//config.h 2> /dev/null || \
+	cp -f ../../shlr/spp//config.def.h ../../shlr/spp//config.h
+make spp_build
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[2]: Nessuna operazione da eseguire per «spp_build».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make -C d
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make[2]: Nessuna operazione da eseguire per «alle».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make all2
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make mem.o unum.o str.o hex.o file.o range.o charset.o xdg.o rxml.o prof.o sys.o buf.o sys_w32.o ubase64.o base85.o base91.o base36.o list.o chmod.o graph.o event.o alloc.o donut.o print_code.o regex/regcomp.o regex/regerror.o regex/regexec.o uleb128.o rstr.o sandbox.o calc.o thread.o thread_sem.o thread_lock.o thread_cond.o thread_chan.o strpool.o bitmap.o time.o format.o pie.o print.o utype.o w32.o w32dw.o seven.o randomart.o zip.o debruijn.o log.o getopt.o table.o sys_sh.o utf8.o utf16.o utf32.o strbuf.o lib.o name.o spaces.o signal.o syscmd.o udiff.o bdiff.o stack.o queue.o tree.o idpool.o assert.o bplist.o punycode.o pkcs7.o x509.o asn1.o asn1_str.o json_parser.o json_indent.o skiplist.o pj.o rbtree.o intervaltree.o qrcode.o vector.o str_constpool.o str_trim.o ascii_table.o protobuf.o graph_drawable.o axml.o sstext.o new_rbtree.o token.o rvc.o rvc_git.o rvc_rvc.o d/ascii.o d/pokered.o d/katakana.o d/hiragana.o d/ebcdic37.o d/iso8859_1.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/smallz4/smallz4cat.o big_gmp.o big_ssl.o big.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/buffer.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/heap.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/set.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb_make.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_uu.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_up.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pp.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pu.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_su.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/json.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/text.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/lock.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ls.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ns.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/query.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/sdb.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/base64.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/disk.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/dict.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/array.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/fmt.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/match.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/num.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/util.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/journal.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/diff.o ../../shlr/spp/spp.o
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[3]: «mem.o» è aggiornato.
+make[3]: «unum.o» è aggiornato.
+make[3]: «str.o» è aggiornato.
+make[3]: «hex.o» è aggiornato.
+make[3]: «file.o» è aggiornato.
+make[3]: «range.o» è aggiornato.
+make[3]: «charset.o» è aggiornato.
+make[3]: «xdg.o» è aggiornato.
+make[3]: «rxml.o» è aggiornato.
+make[3]: «prof.o» è aggiornato.
+make[3]: «sys.o» è aggiornato.
+make[3]: «buf.o» è aggiornato.
+make[3]: «sys_w32.o» è aggiornato.
+make[3]: «ubase64.o» è aggiornato.
+make[3]: «base85.o» è aggiornato.
+make[3]: «base91.o» è aggiornato.
+make[3]: «base36.o» è aggiornato.
+make[3]: «list.o» è aggiornato.
+make[3]: «chmod.o» è aggiornato.
+make[3]: «graph.o» è aggiornato.
+make[3]: «event.o» è aggiornato.
+make[3]: «alloc.o» è aggiornato.
+make[3]: «donut.o» è aggiornato.
+make[3]: «print_code.o» è aggiornato.
+make[3]: «regex/regcomp.o» è aggiornato.
+make[3]: «regex/regerror.o» è aggiornato.
+make[3]: «regex/regexec.o» è aggiornato.
+make[3]: «uleb128.o» è aggiornato.
+make[3]: «rstr.o» è aggiornato.
+make[3]: «sandbox.o» è aggiornato.
+make[3]: «calc.o» è aggiornato.
+make[3]: «thread.o» è aggiornato.
+make[3]: «thread_sem.o» è aggiornato.
+make[3]: «thread_lock.o» è aggiornato.
+make[3]: «thread_cond.o» è aggiornato.
+make[3]: «thread_chan.o» è aggiornato.
+make[3]: «strpool.o» è aggiornato.
+make[3]: «bitmap.o» è aggiornato.
+make[3]: «time.o» è aggiornato.
+make[3]: «format.o» è aggiornato.
+make[3]: «pie.o» è aggiornato.
+make[3]: «print.o» è aggiornato.
+make[3]: «utype.o» è aggiornato.
+make[3]: «w32.o» è aggiornato.
+make[3]: «w32dw.o» è aggiornato.
+make[3]: «seven.o» è aggiornato.
+make[3]: «randomart.o» è aggiornato.
+make[3]: «zip.o» è aggiornato.
+make[3]: «debruijn.o» è aggiornato.
+make[3]: «log.o» è aggiornato.
+make[3]: «getopt.o» è aggiornato.
+make[3]: «table.o» è aggiornato.
+make[3]: «sys_sh.o» è aggiornato.
+make[3]: «utf8.o» è aggiornato.
+make[3]: «utf16.o» è aggiornato.
+make[3]: «utf32.o» è aggiornato.
+make[3]: «strbuf.o» è aggiornato.
+make[3]: «lib.o» è aggiornato.
+make[3]: «name.o» è aggiornato.
+make[3]: «spaces.o» è aggiornato.
+make[3]: «signal.o» è aggiornato.
+make[3]: «syscmd.o» è aggiornato.
+make[3]: «udiff.o» è aggiornato.
+make[3]: «bdiff.o» è aggiornato.
+make[3]: «stack.o» è aggiornato.
+make[3]: «queue.o» è aggiornato.
+make[3]: «tree.o» è aggiornato.
+make[3]: «idpool.o» è aggiornato.
+make[3]: «assert.o» è aggiornato.
+make[3]: «bplist.o» è aggiornato.
+make[3]: «punycode.o» è aggiornato.
+make[3]: «pkcs7.o» è aggiornato.
+make[3]: «x509.o» è aggiornato.
+make[3]: «asn1.o» è aggiornato.
+make[3]: «asn1_str.o» è aggiornato.
+make[3]: «json_parser.o» è aggiornato.
+make[3]: «json_indent.o» è aggiornato.
+make[3]: «skiplist.o» è aggiornato.
+make[3]: «pj.o» è aggiornato.
+make[3]: «rbtree.o» è aggiornato.
+make[3]: «intervaltree.o» è aggiornato.
+make[3]: «qrcode.o» è aggiornato.
+make[3]: «vector.o» è aggiornato.
+make[3]: «str_constpool.o» è aggiornato.
+make[3]: «str_trim.o» è aggiornato.
+make[3]: «ascii_table.o» è aggiornato.
+make[3]: «protobuf.o» è aggiornato.
+make[3]: «graph_drawable.o» è aggiornato.
+make[3]: «axml.o» è aggiornato.
+make[3]: «sstext.o» è aggiornato.
+make[3]: «new_rbtree.o» è aggiornato.
+make[3]: «token.o» è aggiornato.
+make[3]: «rvc.o» è aggiornato.
+make[3]: «rvc_git.o» è aggiornato.
+make[3]: «rvc_rvc.o» è aggiornato.
+make[3]: «d/ascii.o» è aggiornato.
+make[3]: «d/pokered.o» è aggiornato.
+make[3]: «d/katakana.o» è aggiornato.
+make[3]: «d/hiragana.o» è aggiornato.
+make[3]: «d/ebcdic37.o» è aggiornato.
+make[3]: «d/iso8859_1.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/smallz4/smallz4cat.o» è aggiornato.
+make[3]: «big_gmp.o» è aggiornato.
+make[3]: «big_ssl.o» è aggiornato.
+make[3]: «big.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/buffer.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/heap.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/set.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb_make.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_uu.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_up.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pp.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pu.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_su.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/json.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/text.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/lock.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ls.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ns.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/query.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/sdb.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/base64.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/disk.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/dict.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/array.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/fmt.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/match.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/num.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/util.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/journal.o» è aggiornato.
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/diff.o» è aggiornato.
+make[3]: «../../shlr/spp/spp.o» è aggiornato.
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src//libsdb.a
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[3]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src//libsdb.a» è aggiornato.
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+DIR r_util/d
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make[3]: Nessuna operazione da eseguire per «alle».
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[1]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make -C libr/socket
+make[1]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make socket.o socket_proc.o socket_http.o  socket_http_server.o socket_rap_server.o socket_rap_client.o run.o r2pipe.o socket_serial.o
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make[2]: «socket.o» è aggiornato.
+make[2]: «socket_proc.o» è aggiornato.
+make[2]: «socket_http.o» è aggiornato.
+make[2]: «socket_http_server.o» è aggiornato.
+make[2]: «socket_rap_server.o» è aggiornato.
+make[2]: «socket_rap_client.o» è aggiornato.
+make[2]: «run.o» è aggiornato.
+make[2]: «r2pipe.o» è aggiornato.
+make[2]: «socket_serial.o» è aggiornato.
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make[1]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make -C shlr
+make[1]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make -C winkd all
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/winkd»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/winkd»
+if [ ! -d capstone ] || [ ! -f capstone/libcapstone.a ] || [ e1af2e249ab85c70594a8c975f27d072278257fb != e1af2e249ab85c70594a8c975f27d072278257fb ]; then \
+	"/bin/sh" capstone.sh "https://github.com/capstone-engine/capstone.git" "v5" "e1af2e249ab85c70594a8c975f27d072278257fb" "" "" ; \
+fi
+cd capstone && CFLAGS=" -MD   -fPIC -Wall -g -DR2__UNIX__=1 -MD" LDFLAGS="" \
+	make  CC="gcc" AR_EXT=a IS_CYGWIN=0 CAPSTONE_STATIC=yes CAPSTONE_SHARED=no \
+	RANLIB="ranlib" LIBARCHS="" AR="ar" IS_MINGW=0 libcapstone.a
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/capstone»
+make[2]: «libcapstone.a» è aggiornato.
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/capstone»
+make -C bochs all
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/bochs»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/bochs»
+make sdb/src/libsdb.a RANLIB="ranlib"
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make[2]: «sdb/src/libsdb.a» è aggiornato.
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make -C zip
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/zip»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/zip»
+make -C java
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/java»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/java»
+make -C mpc
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/mpc»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/mpc»
+make -C gdb
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/gdb»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/gdb»
+make -C qnx
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/qnx»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/qnx»
+make -C ar
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/ar»
+make[2]: Nessuna operazione da eseguire per «all».
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/ar»
+make -C grub
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/grub»
+make libgrubfs.a
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/grub»
+make[3]: «libgrubfs.a» è aggiornato.
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/grub»
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr/grub»
+make[1]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/shlr»
+make -C libr
+make[1]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+make util
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+DIR util
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+cmp ../../shlr/spp//config.def.h ../../shlr/spp//config.h 2> /dev/null || \
+	cp -f ../../shlr/spp//config.def.h ../../shlr/spp//config.h
+make spp_build
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[4]: Nessuna operazione da eseguire per «spp_build».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make -C d
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make[4]: Nessuna operazione da eseguire per «alle».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make all2
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make mem.o unum.o str.o hex.o file.o range.o charset.o xdg.o rxml.o prof.o sys.o buf.o sys_w32.o ubase64.o base85.o base91.o base36.o list.o chmod.o graph.o event.o alloc.o donut.o print_code.o regex/regcomp.o regex/regerror.o regex/regexec.o uleb128.o rstr.o sandbox.o calc.o thread.o thread_sem.o thread_lock.o thread_cond.o thread_chan.o strpool.o bitmap.o time.o format.o pie.o print.o utype.o w32.o w32dw.o seven.o randomart.o zip.o debruijn.o log.o getopt.o table.o sys_sh.o utf8.o utf16.o utf32.o strbuf.o lib.o name.o spaces.o signal.o syscmd.o udiff.o bdiff.o stack.o queue.o tree.o idpool.o assert.o bplist.o punycode.o pkcs7.o x509.o asn1.o asn1_str.o json_parser.o json_indent.o skiplist.o pj.o rbtree.o intervaltree.o qrcode.o vector.o str_constpool.o str_trim.o ascii_table.o protobuf.o graph_drawable.o axml.o sstext.o new_rbtree.o token.o rvc.o rvc_git.o rvc_rvc.o d/ascii.o d/pokered.o d/katakana.o d/hiragana.o d/ebcdic37.o d/iso8859_1.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/smallz4/smallz4cat.o big_gmp.o big_ssl.o big.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/buffer.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/heap.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/set.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb_make.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_uu.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_up.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pp.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pu.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_su.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/json.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/text.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/lock.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ls.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ns.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/query.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/sdb.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/base64.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/disk.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/dict.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/array.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/fmt.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/match.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/num.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/util.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/journal.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/diff.o ../../shlr/spp/spp.o
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[5]: «mem.o» è aggiornato.
+make[5]: «unum.o» è aggiornato.
+make[5]: «str.o» è aggiornato.
+make[5]: «hex.o» è aggiornato.
+make[5]: «file.o» è aggiornato.
+make[5]: «range.o» è aggiornato.
+make[5]: «charset.o» è aggiornato.
+make[5]: «xdg.o» è aggiornato.
+make[5]: «rxml.o» è aggiornato.
+make[5]: «prof.o» è aggiornato.
+make[5]: «sys.o» è aggiornato.
+make[5]: «buf.o» è aggiornato.
+make[5]: «sys_w32.o» è aggiornato.
+make[5]: «ubase64.o» è aggiornato.
+make[5]: «base85.o» è aggiornato.
+make[5]: «base91.o» è aggiornato.
+make[5]: «base36.o» è aggiornato.
+make[5]: «list.o» è aggiornato.
+make[5]: «chmod.o» è aggiornato.
+make[5]: «graph.o» è aggiornato.
+make[5]: «event.o» è aggiornato.
+make[5]: «alloc.o» è aggiornato.
+make[5]: «donut.o» è aggiornato.
+make[5]: «print_code.o» è aggiornato.
+make[5]: «regex/regcomp.o» è aggiornato.
+make[5]: «regex/regerror.o» è aggiornato.
+make[5]: «regex/regexec.o» è aggiornato.
+make[5]: «uleb128.o» è aggiornato.
+make[5]: «rstr.o» è aggiornato.
+make[5]: «sandbox.o» è aggiornato.
+make[5]: «calc.o» è aggiornato.
+make[5]: «thread.o» è aggiornato.
+make[5]: «thread_sem.o» è aggiornato.
+make[5]: «thread_lock.o» è aggiornato.
+make[5]: «thread_cond.o» è aggiornato.
+make[5]: «thread_chan.o» è aggiornato.
+make[5]: «strpool.o» è aggiornato.
+make[5]: «bitmap.o» è aggiornato.
+make[5]: «time.o» è aggiornato.
+make[5]: «format.o» è aggiornato.
+make[5]: «pie.o» è aggiornato.
+make[5]: «print.o» è aggiornato.
+make[5]: «utype.o» è aggiornato.
+make[5]: «w32.o» è aggiornato.
+make[5]: «w32dw.o» è aggiornato.
+make[5]: «seven.o» è aggiornato.
+make[5]: «randomart.o» è aggiornato.
+make[5]: «zip.o» è aggiornato.
+make[5]: «debruijn.o» è aggiornato.
+make[5]: «log.o» è aggiornato.
+make[5]: «getopt.o» è aggiornato.
+make[5]: «table.o» è aggiornato.
+make[5]: «sys_sh.o» è aggiornato.
+make[5]: «utf8.o» è aggiornato.
+make[5]: «utf16.o» è aggiornato.
+make[5]: «utf32.o» è aggiornato.
+make[5]: «strbuf.o» è aggiornato.
+make[5]: «lib.o» è aggiornato.
+make[5]: «name.o» è aggiornato.
+make[5]: «spaces.o» è aggiornato.
+make[5]: «signal.o» è aggiornato.
+make[5]: «syscmd.o» è aggiornato.
+make[5]: «udiff.o» è aggiornato.
+make[5]: «bdiff.o» è aggiornato.
+make[5]: «stack.o» è aggiornato.
+make[5]: «queue.o» è aggiornato.
+make[5]: «tree.o» è aggiornato.
+make[5]: «idpool.o» è aggiornato.
+make[5]: «assert.o» è aggiornato.
+make[5]: «bplist.o» è aggiornato.
+make[5]: «punycode.o» è aggiornato.
+make[5]: «pkcs7.o» è aggiornato.
+make[5]: «x509.o» è aggiornato.
+make[5]: «asn1.o» è aggiornato.
+make[5]: «asn1_str.o» è aggiornato.
+make[5]: «json_parser.o» è aggiornato.
+make[5]: «json_indent.o» è aggiornato.
+make[5]: «skiplist.o» è aggiornato.
+make[5]: «pj.o» è aggiornato.
+make[5]: «rbtree.o» è aggiornato.
+make[5]: «intervaltree.o» è aggiornato.
+make[5]: «qrcode.o» è aggiornato.
+make[5]: «vector.o» è aggiornato.
+make[5]: «str_constpool.o» è aggiornato.
+make[5]: «str_trim.o» è aggiornato.
+make[5]: «ascii_table.o» è aggiornato.
+make[5]: «protobuf.o» è aggiornato.
+make[5]: «graph_drawable.o» è aggiornato.
+make[5]: «axml.o» è aggiornato.
+make[5]: «sstext.o» è aggiornato.
+make[5]: «new_rbtree.o» è aggiornato.
+make[5]: «token.o» è aggiornato.
+make[5]: «rvc.o» è aggiornato.
+make[5]: «rvc_git.o» è aggiornato.
+make[5]: «rvc_rvc.o» è aggiornato.
+make[5]: «d/ascii.o» è aggiornato.
+make[5]: «d/pokered.o» è aggiornato.
+make[5]: «d/katakana.o» è aggiornato.
+make[5]: «d/hiragana.o» è aggiornato.
+make[5]: «d/ebcdic37.o» è aggiornato.
+make[5]: «d/iso8859_1.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/smallz4/smallz4cat.o» è aggiornato.
+make[5]: «big_gmp.o» è aggiornato.
+make[5]: «big_ssl.o» è aggiornato.
+make[5]: «big.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/buffer.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/heap.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/set.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/cdb_make.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_uu.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_up.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pp.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_pu.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht_su.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ht.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/json.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/text.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/lock.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ls.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/ns.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/query.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/sdb.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/base64.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/disk.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/dict.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/array.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/fmt.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/match.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/num.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/util.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/journal.o» è aggiornato.
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src/diff.o» è aggiornato.
+make[5]: «../../shlr/spp/spp.o» è aggiornato.
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make /home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src//libsdb.a
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[5]: «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/src//libsdb.a» è aggiornato.
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+DIR r_util/d
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make[5]: Nessuna operazione da eseguire per «alle».
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util/d»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/util»
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+make socket reg cons bp config crypto syscall
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+DIR socket
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make socket.o socket_proc.o socket_http.o  socket_http_server.o socket_rap_server.o socket_rap_client.o run.o r2pipe.o socket_serial.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make[4]: «socket.o» è aggiornato.
+make[4]: «socket_proc.o» è aggiornato.
+make[4]: «socket_http.o» è aggiornato.
+make[4]: «socket_http_server.o» è aggiornato.
+make[4]: «socket_rap_server.o» è aggiornato.
+make[4]: «socket_rap_client.o» è aggiornato.
+make[4]: «run.o» è aggiornato.
+make[4]: «r2pipe.o» è aggiornato.
+make[4]: «socket_serial.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/socket»
+DIR reg
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/reg»
+make reg.o arena.o rvalue.o rcond.o double.o profile.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/reg»
+make[4]: «reg.o» è aggiornato.
+make[4]: «arena.o» è aggiornato.
+make[4]: «rvalue.o» è aggiornato.
+make[4]: «rcond.o» è aggiornato.
+make[4]: «double.o» è aggiornato.
+make[4]: «profile.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/reg»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/reg»
+DIR cons
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/cons»
+make cons.o cpipe.o output.o grep.o less.o more.o pager.o cutf8.o line.o hud.o rgb.o input.o pal.o editor.o 2048.o html.o canvas.o canvas_line.o stiv.o pixel.o help.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/cons»
+make[4]: «cons.o» è aggiornato.
+make[4]: «cpipe.o» è aggiornato.
+make[4]: «output.o» è aggiornato.
+make[4]: «grep.o» è aggiornato.
+make[4]: «less.o» è aggiornato.
+make[4]: «more.o» è aggiornato.
+make[4]: «pager.o» è aggiornato.
+make[4]: «cutf8.o» è aggiornato.
+make[4]: «line.o» è aggiornato.
+make[4]: «hud.o» è aggiornato.
+make[4]: «rgb.o» è aggiornato.
+make[4]: «input.o» è aggiornato.
+make[4]: «pal.o» è aggiornato.
+make[4]: «editor.o» è aggiornato.
+make[4]: «2048.o» è aggiornato.
+make[4]: «html.o» è aggiornato.
+make[4]: «canvas.o» è aggiornato.
+make[4]: «canvas_line.o» è aggiornato.
+make[4]: «stiv.o» è aggiornato.
+make[4]: «pixel.o» è aggiornato.
+make[4]: «help.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/cons»
+DIR r_cons/d
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/cons/d»
+make[4]: Nessuna operazione da eseguire per «all».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/cons/d»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/cons»
+DIR bp
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/bp»
+make bp.o bp_watch.o bp_io.o bp_plugin.o bp_traptrace.o p/bp_arm.o p/bp_bf.o p/bp_mips.o p/bp_ppc.o p/bp_riscv.o p/bp_x86.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/bp»
+make[4]: «bp.o» è aggiornato.
+make[4]: «bp_watch.o» è aggiornato.
+make[4]: «bp_io.o» è aggiornato.
+make[4]: «bp_plugin.o» è aggiornato.
+make[4]: «bp_traptrace.o» è aggiornato.
+make[4]: «p/bp_arm.o» è aggiornato.
+make[4]: «p/bp_bf.o» è aggiornato.
+make[4]: «p/bp_mips.o» è aggiornato.
+make[4]: «p/bp_ppc.o» è aggiornato.
+make[4]: «p/bp_riscv.o» è aggiornato.
+make[4]: «p/bp_x86.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/bp»
+make -C p
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/bp/p»
+make[4]: Nessuna operazione da eseguire per «all».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/bp/p»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/bp»
+DIR config
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/config»
+make config.o callback.o hold.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/config»
+make[4]: «config.o» è aggiornato.
+make[4]: «callback.o» è aggiornato.
+make[4]: «hold.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/config»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/config»
+DIR crypto
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make p/crypto_aes.o p/crypto_aes_algo.o p/crypto_aes_cbc.o p/crypto_aes_wrap.o p/crypto_base64.o p/crypto_base91.o p/crypto_blowfish.o p/crypto_cps2.o p/crypto_des.o p/crypto_entropy.o p/crypto_punycode.o p/crypto_rc2.o p/crypto_rc4.o p/crypto_rc6.o p/crypto_rol.o p/crypto_ror.o p/crypto_rot.o p/crypto_serpent.o p/crypto_serpent_algo.o p/crypto_sm4.o p/crypto_sm4_algo.o p/crypto_xor.o crypto.o des.o hash/state.o hash/hash.o hash/hamdist.o hash/crca.o hash/fletcher.o hash/sip.o hash/entropy.o hash/hcalc.o hash/adler32.o hash/luhn.o hash/ssdeep.o hash/md4.o hash/md5.o hash/sha1.o hash/sha2.o hash/xxhash.o
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[5]: «p/crypto_aes.o» è aggiornato.
+make[5]: «p/crypto_aes_algo.o» è aggiornato.
+make[5]: «p/crypto_aes_cbc.o» è aggiornato.
+make[5]: «p/crypto_aes_wrap.o» è aggiornato.
+make[5]: «p/crypto_base64.o» è aggiornato.
+make[5]: «p/crypto_base91.o» è aggiornato.
+make[5]: «p/crypto_blowfish.o» è aggiornato.
+make[5]: «p/crypto_cps2.o» è aggiornato.
+make[5]: «p/crypto_des.o» è aggiornato.
+make[5]: «p/crypto_entropy.o» è aggiornato.
+make[5]: «p/crypto_punycode.o» è aggiornato.
+make[5]: «p/crypto_rc2.o» è aggiornato.
+make[5]: «p/crypto_rc4.o» è aggiornato.
+make[5]: «p/crypto_rc6.o» è aggiornato.
+make[5]: «p/crypto_rol.o» è aggiornato.
+make[5]: «p/crypto_ror.o» è aggiornato.
+make[5]: «p/crypto_rot.o» è aggiornato.
+make[5]: «p/crypto_serpent.o» è aggiornato.
+make[5]: «p/crypto_serpent_algo.o» è aggiornato.
+make[5]: «p/crypto_sm4.o» è aggiornato.
+make[5]: «p/crypto_sm4_algo.o» è aggiornato.
+make[5]: «p/crypto_xor.o» è aggiornato.
+make[5]: «crypto.o» è aggiornato.
+make[5]: «des.o» è aggiornato.
+make[5]: «hash/state.o» è aggiornato.
+make[5]: «hash/hash.o» è aggiornato.
+make[5]: «hash/hamdist.o» è aggiornato.
+make[5]: «hash/crca.o» è aggiornato.
+make[5]: «hash/fletcher.o» è aggiornato.
+make[5]: «hash/sip.o» è aggiornato.
+make[5]: «hash/entropy.o» è aggiornato.
+make[5]: «hash/hcalc.o» è aggiornato.
+make[5]: «hash/adler32.o» è aggiornato.
+make[5]: «hash/luhn.o» è aggiornato.
+make[5]: «hash/ssdeep.o» è aggiornato.
+make[5]: «hash/md4.o» è aggiornato.
+make[5]: «hash/md5.o» è aggiornato.
+make[5]: «hash/sha1.o» è aggiornato.
+make[5]: «hash/sha2.o» è aggiornato.
+make[5]: «hash/xxhash.o» è aggiornato.
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[4]: «libr_crypto.a» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+cd p && make all
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto/p»
+make[5]: Nessuna operazione da eseguire per «all».
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto/p»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/crypto»
+DIR syscall
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall»
+make -C d
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[5]: Nessuna operazione da eseguire per «compile».
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make syscall.o ioports.o splugs.o d/darwin-arm-32.o d/darwin-arm-64.o d/darwin-x86-32.o d/darwin-x86-64.o d/dos-x86-16.o d/freebsd-x86-32.o d/ios-arm-32.o d/ios-arm-64.o d/ios-x86-32.o d/linux-arm-32.o d/linux-arm-64.o d/linux-mips-32.o d/linux-sparc-32.o d/linux-x86-32.o d/linux-x86-64.o d/netbsd-x86-32.o d/openbsd-x86-32.o d/openbsd-x86-64.o d/s110-arm-16.o d/windows-x86-32.o d/windows-x86-64.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall»
+make[4]: «syscall.o» è aggiornato.
+make[4]: «ioports.o» è aggiornato.
+make[4]: «splugs.o» è aggiornato.
+make[4]: «d/darwin-arm-32.o» è aggiornato.
+make[4]: «d/darwin-arm-64.o» è aggiornato.
+make[4]: «d/darwin-x86-32.o» è aggiornato.
+make[4]: «d/darwin-x86-64.o» è aggiornato.
+make[4]: «d/dos-x86-16.o» è aggiornato.
+make[4]: «d/freebsd-x86-32.o» è aggiornato.
+make[4]: «d/ios-arm-32.o» è aggiornato.
+make[4]: «d/ios-arm-64.o» è aggiornato.
+make[4]: «d/ios-x86-32.o» è aggiornato.
+make[4]: «d/linux-arm-32.o» è aggiornato.
+make[4]: «d/linux-arm-64.o» è aggiornato.
+make[4]: «d/linux-mips-32.o» è aggiornato.
+make[4]: «d/linux-sparc-32.o» è aggiornato.
+make[4]: «d/linux-x86-32.o» è aggiornato.
+make[4]: «d/linux-x86-64.o» è aggiornato.
+make[4]: «d/netbsd-x86-32.o» è aggiornato.
+make[4]: «d/openbsd-x86-32.o» è aggiornato.
+make[4]: «d/openbsd-x86-64.o» è aggiornato.
+make[4]: «d/s110-arm-16.o» è aggiornato.
+make[4]: «d/windows-x86-32.o» è aggiornato.
+make[4]: «d/windows-x86-64.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall»
+DIR r_syscall/d
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[5]: Nessuna operazione da eseguire per «compile».
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall/d»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/syscall»
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+make search flag esil io
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+DIR search
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/search»
+make search.o bytepat.o strings.o aes_find.o privkey.o regexp.o keyword.o uds.o karp.o sm4_find.o tire.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/search»
+make[4]: «search.o» è aggiornato.
+make[4]: «bytepat.o» è aggiornato.
+make[4]: «strings.o» è aggiornato.
+make[4]: «aes_find.o» è aggiornato.
+make[4]: «privkey.o» è aggiornato.
+make[4]: «regexp.o» è aggiornato.
+make[4]: «keyword.o» è aggiornato.
+make[4]: «uds.o» è aggiornato.
+make[4]: «karp.o» è aggiornato.
+make[4]: «sm4_find.o» è aggiornato.
+make[4]: «tire.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/search»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/search»
+DIR flag
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/flag»
+make flag.o zones.o tags.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/flag»
+make[4]: «flag.o» è aggiornato.
+make[4]: «zones.o» è aggiornato.
+make[4]: «tags.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/flag»
+DIR r_flag/d
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/flag/d»
+make[4]: Nessuna operazione da eseguire per «all».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/flag/d»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/flag»
+DIR esil
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/esil»
+make esil.o esil_plugin.o esil_handler.o esil_stats.o esil_trace.o p/esil_dummy.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/esil»
+make[4]: «esil.o» è aggiornato.
+make[4]: «esil_plugin.o» è aggiornato.
+make[4]: «esil_handler.o» è aggiornato.
+make[4]: «esil_stats.o» è aggiornato.
+make[4]: «esil_trace.o» è aggiornato.
+make[4]: «p/esil_dummy.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/esil»
+make -C p
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/esil/p»
+make[4]: Nessuna operazione da eseguire per «all».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/esil/p»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/esil»
+DIR io
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io»
+make p/io_ar.o p/io_bfdbg.o p/io_bochs.o p/io_debug.o p/io_default.o p/io_fd.o p/io_gdb.o p/io_gprobe.o p/io_gzip.o p/io_http.o p/io_ihex.o p/io_isotp.o p/io_mach.o p/io_malloc.o p/io_mmap.o p/io_null.o p/io_procpid.o p/io_ptrace.o p/io_qnx.o p/io_r2k.o p/io_r2k_linux.o p/io_r2pipe.o p/io_r2web.o p/io_rap.o p/io_rbuf.o p/io_reg.o p/io_self.o p/io_serial.o p/io_shm.o p/io_socket.o p/io_sparse.o p/io_tcpslurp.o p/io_treebuf.o p/io_w32.o p/io_w32dbg.o p/io_winedbg.o p/io_winkd.o p/io_xalz.o p/io_xattr.o p/io_zip.o io.o io_plugin.o io_map.o io_desc.o io_cache.o p_cache.o io_stream.o io_bank.o io_submap.o undo.o ioutils.o io_fd.o io_memory.o ptrace_wrap.o
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io»
+make[4]: «p/io_ar.o» è aggiornato.
+make[4]: «p/io_bfdbg.o» è aggiornato.
+make[4]: «p/io_bochs.o» è aggiornato.
+make[4]: «p/io_debug.o» è aggiornato.
+make[4]: «p/io_default.o» è aggiornato.
+make[4]: «p/io_fd.o» è aggiornato.
+make[4]: «p/io_gdb.o» è aggiornato.
+make[4]: «p/io_gprobe.o» è aggiornato.
+make[4]: «p/io_gzip.o» è aggiornato.
+make[4]: «p/io_http.o» è aggiornato.
+make[4]: «p/io_ihex.o» è aggiornato.
+make[4]: «p/io_isotp.o» è aggiornato.
+make[4]: «p/io_mach.o» è aggiornato.
+make[4]: «p/io_malloc.o» è aggiornato.
+make[4]: «p/io_mmap.o» è aggiornato.
+make[4]: «p/io_null.o» è aggiornato.
+make[4]: «p/io_procpid.o» è aggiornato.
+make[4]: «p/io_ptrace.o» è aggiornato.
+make[4]: «p/io_qnx.o» è aggiornato.
+make[4]: «p/io_r2k.o» è aggiornato.
+make[4]: «p/io_r2k_linux.o» è aggiornato.
+make[4]: «p/io_r2pipe.o» è aggiornato.
+make[4]: «p/io_r2web.o» è aggiornato.
+make[4]: «p/io_rap.o» è aggiornato.
+make[4]: «p/io_rbuf.o» è aggiornato.
+make[4]: «p/io_reg.o» è aggiornato.
+make[4]: «p/io_self.o» è aggiornato.
+make[4]: «p/io_serial.o» è aggiornato.
+make[4]: «p/io_shm.o» è aggiornato.
+make[4]: «p/io_socket.o» è aggiornato.
+make[4]: «p/io_sparse.o» è aggiornato.
+make[4]: «p/io_tcpslurp.o» è aggiornato.
+make[4]: «p/io_treebuf.o» è aggiornato.
+make[4]: «p/io_w32.o» è aggiornato.
+make[4]: «p/io_w32dbg.o» è aggiornato.
+make[4]: «p/io_winedbg.o» è aggiornato.
+make[4]: «p/io_winkd.o» è aggiornato.
+make[4]: «p/io_xalz.o» è aggiornato.
+make[4]: «p/io_xattr.o» è aggiornato.
+make[4]: «p/io_zip.o» è aggiornato.
+make[4]: «io.o» è aggiornato.
+make[4]: «io_plugin.o» è aggiornato.
+make[4]: «io_map.o» è aggiornato.
+make[4]: «io_desc.o» è aggiornato.
+make[4]: «io_cache.o» è aggiornato.
+make[4]: «p_cache.o» è aggiornato.
+make[4]: «io_stream.o» è aggiornato.
+make[4]: «io_bank.o» è aggiornato.
+make[4]: «io_submap.o» è aggiornato.
+make[4]: «undo.o» è aggiornato.
+make[4]: «ioutils.o» è aggiornato.
+make[4]: «io_fd.o» è aggiornato.
+make[4]: «io_memory.o» è aggiornato.
+make[4]: «ptrace_wrap.o» è aggiornato.
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io»
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io/p»
+make[4]: Nessuna operazione da eseguire per «all».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io/p»
+make pos
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io»
+make[4]: Nessuna operazione da eseguire per «pos».
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/io»
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+make arch fs 
+make[2]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+DIR arch
+make[3]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch»
+make -C p/arm/v35
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35»
+make arm64dis.a
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35»
+make[5]: «arm64dis.a» è aggiornato.
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35»
+make armv7dis.a
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35»
+make[5]: «armv7dis.a» è aggiornato.
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35»
+make libr_arch.so
+make[4]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch»
+make arch.o arch_config.o arch_switch.o arch_op.o arch_value.o arch_cond.o arch_session.o p/6502/plugin.o p/6502_cs/plugin.o p/8051/plugin.o p/alpha/plugin.o p/alpha/alpha-dis.o p/alpha/alpha-opc.o p/amd29k/plugin.o p/any_as/plugin.o p/any_vasm/plugin.o p/arc/plugin.o p/arc/gnu/arc-dis.o p/arc/gnu/arc-ext.o p/arc/gnu/arc-opc.o p/arc/gnu/arcompact-dis.o p/arm/plugin.o p/arm/armass64.o p/arm/armass.o p/arm/plugin_cs.o p/arm/cs/arm.o p/arm/cs/arm64.o p/arm/plugin_gnu.o p/arm/gnu/arm-dis.o p/arm/winedbg/be_arm.o p/arm/aarch64/aarch64-dis.o p/arm/aarch64/aarch64-dis-2.o p/arm/aarch64/aarch64-opc.o p/arm/aarch64/aarch64-opc-2.o p/arm/plugin_v35.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/decode.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/decode0.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/decode1.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/decode2.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/decode_fields32.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/decode_scratchpad.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/encodings_dec.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/encodings_fmt.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/format.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/gofer.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/operations.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/pcode.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/regs.o /home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/sysregs.o p/avr/plugin.o p/avr/avr_disasm.o p/avr/format.o p/avr/disasm.o p/avr/assemble.o p/bf/plugin.o p/bpf/plugin.o p/bpf_cs/plugin.o p/chip8/plugin.o p/cr16/plugin.o p/cr16/cr16_disas.o p/cris/plugin.o p/cris/gnu/cris-dis.o p/cris/gnu/cris-opc.o p/dalvik/plugin.o p/dis/plugin.o p/ebc/plugin.o p/ebc/ebc_disas.o p/evm/plugin.o p/gb/plugin.o p/h8300/plugin.o p/h8300/h8300_disas.o p/hppa/plugin_gnu.o p/hppa/gnu/hppa-dis.o p/i4004/plugin.o p/i8080/plugin.o p/i8080/i8080.o p/java/plugin.o  p/jdh8/plugin.o p/kvx/plugin.o p/kvx/kvx-dis.o p/kvx/kvx-reg.o p/lanai/plugin.o p/lanai/gnu/lanai-dis.o p/lanai/gnu/lanai-opc.o p/lh5801/plugin.o p/lm32/plugin.o p/loongarch/plugin.o p/loongarch/loongarch-dis.o p/loongarch/loongarch-opc.o p/loongarch/loongarch-coder.o p/lua/plugin.o p/m680x_cs/plugin.o p/m68k_cs/plugin.o p/m68k_gnu/plugin.o p/m68k_gnu/m68k-dis.o p/m68k_gnu/m68k-opc.o p/arm/gnu/floatformat.o p/mcore/plugin.o p/mcore/mcore.o p/mcs96/plugin.o p/mips/plugin_cs.o p/mips/mipsasm.o p/mips_gnu/plugin.o p/mips_gnu/mips-dis.o p/mips_gnu/mips16-opc.o p/mips_gnu/micromips-opc.o p/mips_gnu/mips-opc.o p/msp430/plugin.o p/msp430/msp430_disas.o p/nds32_gnu/plugin.o p/nios2/plugin.o p/nios2/nios2-dis.o p/nios2/nios2-opc.o p/null/plugin.o p/or1k/plugin.o p/or1k/or1k_disas.o p/pdp11/plugin.o p/pdp11/pdp11-dis.o p/pdp11/pdp11-opc.o p/pic/plugin.o p/pic/pic_midrange.o p/pic/pic_baseline.o p/pic/pic_pic18.o p/pickle/plugin.o p/ppc_cs/plugin.o p/ppc/libvle/vle.o p/ppc/libps/libps.o p/ppc/plugin_gnu.o p/ppc/gnu/ppc-dis.o p/ppc/gnu/ppc-opc.o p/propeller/plugin.o p/propeller/propeller_disas.o p/pyc/plugin.o p/pyc/opcode_all.o p/pyc/opcode_anal.o p/pyc/opcode_arg_fmt.o p/pyc/opcode.o p/pyc/pyc_dis.o p/riscv/plugin.o p/riscv_cs/plugin.o p/rsp/plugin.o p/rsp/rsp_idec.o p/s390/plugin.o p/s390_gnu/plugin.o p/s390_gnu/s390-dis.o p/s390_gnu/s390-opc.o p/sh/plugin.o p/sh/gnu/sh-dis.o p/sh_cs/plugin.o p/sm5xx/plugin.o p/sm5xx/sm5xx.o p/snes/plugin.o p/sparc_cs/plugin.o p/sparc/plugin_gnu.o p/sparc/gnu/sparc-dis.o p/sparc/gnu/sparc-opc.o p/tms320/plugin.o p/tms320/tms320_dasm.o p/tms320/c55x_plus/ins.o p/tms320/c55x_plus/c55plus.o p/tms320/c55x_plus/c55plus_decode.o p/tms320/c55x_plus/decode_funcs.o p/tms320/c55x_plus/utils.o p/tms320/c55x_plus/hashtable.o p/tms320/c55x_plus/hashvector.o p/tricore/tricore.o p/tricore/gnu/tricore-dis.o p/tricore/gnu/tricore-opc.o p/tricore/gnu/cpu-tricore.o p/tricore_cs/plugin.o p/v810/plugin.o p/v810/v810_disas.o p/v850/plugin.o p/v850/v850dis.o p/v850/v850e0.o p/vax/vax.o p/vax/vax-dis.o p/wasm/plugin.o p/ws/plugin.o p/x86/plugin_cs.o p/x86_nasm/plugin.o p/x86_nz/plugin.o p/xap/plugin.o p/xcore_cs/plugin.o p/xtensa/plugin.o p/xtensa/gnu/xtensa-dis.o p/xtensa/gnu/xtensa-isa.o p/xtensa/gnu/xtensa-modules.o p/xtensa/gnu/elf32-xtensa.o p/z80/plugin.o
+make[5]: ingresso nella directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch»
+gcc -c -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr/include -I.. -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr/..//libr/arch/include -DR2_PLUGIN_INCORE -Iarch -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr/..//shlr -MD   -fPIC -Wall -g -DR2__UNIX__=1 -I../../shlr/capstone/include -I../../../shlr/capstone/include -I../../shlr/capstone/include/capstone -I../../../shlr/capstone/include/capstone -DR2_PLUGIN_INCORE -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch/p/arm/v35//arch-arm64/disassembler/ -Iarch/ebc/ -Iarch/h8300/ -Iarch -Iarch -Iv810 -Ip/wasm -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr/..//libr/arch/include -I/home/emantovani/Scrivania/MTK_wifi/radare2/libr/../shlr/sdb/include -fvisibility=hidden -o arch.o arch.c
+make[5]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch»
+make[4]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch»
+make[3]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr/arch»
+make[2]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
+make[1]: uscita dalla directory «/home/emantovani/Scrivania/MTK_wifi/radare2/libr»
